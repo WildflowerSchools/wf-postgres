@@ -5,10 +5,10 @@ publish: build
     poetry publish
 
 format:
-    black MODULE_NAME
+    black postgres_client
 
 lint:
-    pylint MODULE_NAME
+    pylint postgres_client
 
 test:
     pytest tests/

@@ -1,18 +1,18 @@
 [project]
-name = "PROJECT_NAME"
+name = "wf-postgres-client"
 dynamic = ["version"]
 
 [tool.poetry]
-name = "PROJECT_NAME"
+name = "wf-postgres-client"
 version = "0.1.0"
-description = ""
-authors = ["NAME <EMAIL>"]
-maintainers = ["NAME <EMAIL>"]
+description = "A client for communicating with PostgreSQL databases"
+authors = ["Theodore Quinn <ted.quinn@wildflowerschools.org>"]
+maintainers = ["Theodore Quinn <ted.quinn@wildflowerschools.org>"]
 readme = "README.md"
 keywords = []
-repository = "<<GITHUB URL>>"
+repository = "https://github.com/WildflowerSchools/wf-postgres-client"
 license = "MIT"
-packages = [{include = "MODULE_NAME"}]
+packages = [{include = "postgres_client"}]
 classifiers = [
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",

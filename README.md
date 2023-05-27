@@ -1,10 +1,10 @@
-# MODULE_NAME
+# postgres_client
 
-SHORT_DESCRIPTION
+A client for communicating with PostgreSQL databases
 
 ## Installation
 
-`pip install PYPI_PACKAGE_NAME`
+`pip install wf-postgres-client`
 
 ## Development
 
