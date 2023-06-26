@@ -3,6 +3,7 @@ from pathlib import Path
 import toml
 
 from .core import *
+from .utils import *
 
 # Credit to @unruffled-nightingale: https://github.com/unruffled-nightingale/fastapi-template/blob/main/fastapi_template/__init__.py
 def get_version() -> str:
