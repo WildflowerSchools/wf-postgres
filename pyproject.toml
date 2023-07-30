@@ -4,7 +4,7 @@ dynamic = ["version"]
 
 [tool.poetry]
 name = "wf-postgres-client"
-version = "0.1.1"
+version = "0.1.2"
 description = "A client for communicating with PostgreSQL databases"
 authors = ["Theodore Quinn <ted.quinn@wildflowerschools.org>"]
 maintainers = ["Theodore Quinn <ted.quinn@wildflowerschools.org>"]
@@ -23,8 +23,8 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.8"
 toml = "^0.10.2"
-psycopg2 = "^2.9"
-pandas = "^1.5"
+psycopg2 = ">=2.9"
+pandas = ">=1.5"
 
 [tool.poetry.group.dev.dependencies]
 black = "^22.10.0"
